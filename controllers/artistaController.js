@@ -2,7 +2,7 @@ const { request, response } = require('express');
 const { pool } = require('../database/configDB');
 
 // Controlador de las peticiones HTTP
-const getArtistas = async (req = request, res = response) => {
+const getAllArtistas = async (req = request, res = response) => {
 
     const { rows } = await pool.query('SELECT * FROM artista')
 
@@ -12,5 +12,5 @@ const getArtistas = async (req = request, res = response) => {
 
 }
 module.exports = {
-    getArtistas
+    getAllArtistas
 }

@@ -1,10 +1,10 @@
 const { Router } = require("express");
-const { getArtistas } = require("../controllers/artistaController");
+const { getAllArtistas } = require("../controllers/artistaController");
 
 const router = Router();
 
 //PETICIONES
 //GET
-router.get('/', getArtistas);
+router.get('/', getAllArtistas);
 
 module.exports = router;
