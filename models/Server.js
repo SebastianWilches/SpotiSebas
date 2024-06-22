@@ -12,9 +12,18 @@ class Server {
         this.paths = {
             artistaRoute: '/api/artista'
         }
+
+        //Midlewares
+        this.middlewares();
+
+        //Rutas
         this.routes();
     }
 
+    middlewares() {
+        //Lectura del body (Cuando hagamos petición POST)
+        this.app.use(express.json());
+    }
 
     routes() {
         //Middleware para rutas
