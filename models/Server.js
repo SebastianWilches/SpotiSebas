@@ -1,5 +1,6 @@
 // Importaciones
 const express = require('express');
+const cors = require('cors');
 
 
 
@@ -21,6 +22,9 @@ class Server {
     }
 
     middlewares() {
+        //Middleware para CORS
+        this.app.use(cors())
+
         //Lectura del body (Cuando hagamos petición POST)
         this.app.use(express.json());
     }
