@@ -1,5 +1,5 @@
 const { Router } = require("express");
-const { getAllArtistas, getByIDArtistas, deleteArtista } = require("../controllers/artistaController");
+const { getAllArtistas, getByIDArtistas, postArtista, deleteArtista } = require("../controllers/artistaController");
 
 const router = Router();
 
@@ -8,7 +8,10 @@ const router = Router();
 router.get('/', getAllArtistas);
 router.get('/:idArtista', getByIDArtistas);
 
+//POST
+router.post('/', postArtista)
+
 //DELETE
-router.delete('/', deleteArtista);
+router.delete('/:idArtista', deleteArtista);
 
 module.exports = router;
