@@ -1,9 +1,9 @@
 const { Router } = require("express");
-const { getAllArtistas, getByIDArtistas, postArtista, deleteArtista } = require("../controllers/artistaController");
+const { getAllArtistas, getByIDArtistas, postArtista, deleteByIDArtista, updateByIDArtista } = require("../controllers/artistaController");
 
 const router = Router();
 
-//PETICIONES
+//  PETICIONES
 //GET
 router.get('/', getAllArtistas);
 router.get('/:idArtista', getByIDArtistas);
@@ -11,7 +11,10 @@ router.get('/:idArtista', getByIDArtistas);
 //POST
 router.post('/', postArtista)
 
+//PUT
+router.put('/:idArtista', updateByIDArtista)
+
 //DELETE
-router.delete('/:idArtista', deleteArtista);
+router.delete('/:idArtista', deleteByIDArtista);
 
 module.exports = router;
