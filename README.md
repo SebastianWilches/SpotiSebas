@@ -49,7 +49,7 @@ Para la creación de la RESTful API se hará uso de las siguientes recursos:
 La documentación de los 5 endpoints generados para la tabla Artistas puede ser encontrada [**aquí**](https://documenter.getpostman.com/view/20804832/2sA3XWdJjU).
 
 ### Instalación
-> **NOTA:** Se instalar Postgresql previamente y cargar el InitialScript.sql y Queries.sql en la base de datos de Postgresql teniendo en cuenta la plantilla de las variables de entorno.
+> **NOTA:** Se debe instalar Postgresql previamente y cargar el InitialScript.sql y Queries.sql en la base de datos de Postgresql teniendo en cuenta la plantilla de las variables de entorno.
 
 Descargue el repositorio del proyecto en su directorio local:
 ```
