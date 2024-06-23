@@ -61,7 +61,7 @@ LEFT JOIN cancion c ON a.idArtista = c.idArtista
 GROUP BY a.idArtista, a.nameArtista
 ORDER BY totalCanciones DESC;
 
---Consulta que clasifica las canciones de la base de datos en 'Larga', 'Media' o 'Corta' según su duración en segundos
+-- Consultar que clasifica las canciones de la base de datos en 'Larga', 'Media' o 'Corta' según su duración en segundos
 SELECT idCancion, nameCancion,
     CASE
         WHEN duracion > 300 THEN 'Larga'
@@ -70,7 +70,7 @@ SELECT idCancion, nameCancion,
     END AS duracionCategoria
 FROM cancion;
 
---Consulta que hace una fusión de dos playlist distintas y quita las canciones repetidas
+--Consultar que hace una fusión de dos playlist distintas y quita las canciones repetidas
 SELECT DISTINCT c.idcancion, c.namecancion , c.namealbum, c.duracion, c.formato  
 FROM cancion c
 INNER JOIN playlist p ON c.idcancion = p.idcancion
