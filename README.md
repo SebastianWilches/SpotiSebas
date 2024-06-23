@@ -1,5 +1,7 @@
 # SpotiSebas (Prueba Técnica de Ingreso Desarrollador para TBTB Global - Parte I y II)
-<!-- TODO: Anexar la imagen con el URL -->
+<p align="center" style="padding: 20px; background: #252832">
+    <img src="https://github.com/SebastianWilches/SpotiSebas/blob/main/img/Header.png" alt="Header">
+</p>
 ## Descripción
 Este repositorio contiene el backend para un sistema de software diseñado para modelar y gestionar la funcionalidad de un servicio de música en línea, similar a Spotify. El proyecto abarca el modelo de artistas, canciones, usuarios y playlists, permitiendo a los usuarios descubrir y organizar su música favorita de manera eficiente en playlists.
 
@@ -24,10 +26,14 @@ Dentro de la carpeta de **Scripts**, en el archivo **InitialScript.sql** se encu
 - Fusionar dos playlist distintas y quitar las canciones repetidas.
 
 El diagrama entidad relación es el siguiente:
-<!-- TODO: Anexar la imagen con el URL -->
+<p align="center" style="padding: 20px; background: #252832">
+    <img src="https://github.com/SebastianWilches/SpotiSebas/blob/main/scripts/DiagramaER.png" alt="DiagramaER">
+</p>
 
 El diagrama físico es el siguiente:
-<!-- TODO: Anexar la imagen con el URL -->
+<p align="center" style="padding: 20px; background: #252832">
+    <img src="https://github.com/SebastianWilches/SpotiSebas/blob/main/scripts/DiagramaFisico.png" alt="DiagramaFisico">
+</p>
 
 ## Parte II
 Para la creación de la RESTful API se hará uso de las siguientes recursos:
@@ -39,7 +45,7 @@ Para la creación de la RESTful API se hará uso de las siguientes recursos:
 | pg | 8.12.0 |
 
 ### Documentación 📕
-La documentación de los 5 endpoints generados para la tabla Artistas puede ser encontrada [**aquí**](https://www.figma.com/design/P4T7UnSn9eeFZv66KiwHRQ/Mockups?t=MsECbxfzLc4DkNtG-1).
+La documentación de los 5 endpoints generados para la tabla Artistas puede ser encontrada [**aquí**](https://documenter.getpostman.com/view/20804832/2sA3XWdJjU).
 
 ### Instalación
 Cargue el InitialSCript.sql y Queries.sql en la base de datos de Postgresql teniendo en cuenta la plantilla de las variables de entorno.
