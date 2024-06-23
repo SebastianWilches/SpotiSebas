@@ -2,6 +2,7 @@
 <p align="center" style="padding: 20px; background: #252832">
     <img src="https://github.com/SebastianWilches/SpotiSebas/blob/main/img/Header.png" alt="Header">
 </p>
+
 ## Descripción
 Este repositorio contiene el backend para un sistema de software diseñado para modelar y gestionar la funcionalidad de un servicio de música en línea, similar a Spotify. El proyecto abarca el modelo de artistas, canciones, usuarios y playlists, permitiendo a los usuarios descubrir y organizar su música favorita de manera eficiente en playlists.
 
