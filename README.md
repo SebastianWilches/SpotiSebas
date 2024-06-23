@@ -55,7 +55,7 @@ Descargue el repositorio del proyecto en su directorio local:
 ```
 git clone https://github.com/SebastianWilches/SpotiSebas.git
 ```
-Abra su terminal en proyecto local, y ejecute:
+Abra la carpeta **SpotiSebas** con Visual Studio Code, y con su terminal integrada, ejecute:
 ```
 npm i
 ```
@@ -64,6 +64,6 @@ Para abrir el proyecto en modo de desarrollo, ejecute en la terminal:
 npm start
 ```
 
-> **NOTA:** El archivo que contiene las variables de entorno .env se sube para facilitar la ejecución rapida de la prueba técnica, esta se debe modificar según las credenciales en las que se vaya a correr la BD local.
+> **NOTA:** El archivo que contiene las variables de entorno .env se encuentra en la carpeta raiz de **SpotiSebas** se sube para facilitar la ejecución rapida de la prueba técnica, esta se debe modificar en Visual Studio Code según las credenciales en las que se vaya a correr la BD local.
 ## Parte III
 El desarrollo del aplicativo web puede ser encontrado [**aquí**](https://github.com/SebastianWilches/TBTB_Global-Parte3).
