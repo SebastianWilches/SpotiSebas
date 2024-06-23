@@ -49,8 +49,7 @@ Para la creación de la RESTful API se hará uso de las siguientes recursos:
 La documentación de los 5 endpoints generados para la tabla Artistas puede ser encontrada [**aquí**](https://documenter.getpostman.com/view/20804832/2sA3XWdJjU).
 
 ### Instalación
-Cargue el InitialSCript.sql y Queries.sql en la base de datos de Postgresql teniendo en cuenta la plantilla de las variables de entorno.
-
+> **NOTA:** Se instalar Postgresql previamente y cargar el InitialScript.sql y Queries.sql en la base de datos de Postgresql teniendo en cuenta la plantilla de las variables de entorno.
 
 Descargue el repositorio del proyecto en su directorio local:
 ```
@@ -65,6 +64,6 @@ Para abrir el proyecto en modo de desarrollo, ejecute en la terminal:
 npm start
 ```
 
-> **NOTA:** El archivo que contiene las variables de entorno .env se sube para facilitar la ejecución rapida de la prueba técnica.
+> **NOTA:** El archivo que contiene las variables de entorno .env se sube para facilitar la ejecución rapida de la prueba técnica, esta se debe modificar según las credenciales en las que se vaya a correr la BD local.
 ## Parte III
 El desarrollo del aplicativo web puede ser encontrado [**aquí**](https://github.com/SebastianWilches/TBTB_Global-Parte3).
